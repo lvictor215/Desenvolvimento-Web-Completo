@@ -1,0 +1,395 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 800;
+    /* border: 1px solid red; */
+}
+
+body {
+    width: 100%;
+    background-color: rgba(203, 203, 203, 0.358);
+}
+
+/*Estrutura geral do HEADER */
+
+header {
+    width: 100%;
+    height: 233px;
+    background: #294C71 url(../img/fundo.png) repeat-x center bottom;
+    min-width: 900px;
+
+}
+
+div.menuGrupo {
+    width: 850px;
+    height: 233px;
+    margin: 0 auto;
+    padding: 0;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    clear: both;
+}
+
+div.logo {
+    padding-top: 20px;
+    width: 152px;
+    height: 66px;
+
+}
+
+/* Estrutura do menu */
+
+div.opc {
+    width: 738px;
+    height: 20px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 15px;
+
+}
+
+ul#menu li {
+    float: left;
+    background-image: url(../img/divisor.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+ul#menu a {
+    display: block;
+    margin: 0;
+    padding: 0.5em 1.5em;
+    background-color: #b10333;
+    color: white;
+    font-weight: 700;
+
+}
+
+ul#menu a.primeiro {
+    border-radius: 10px 0 0 10px;
+    font-weight: 900;
+}
+
+ul#menu a.ultimo {
+    border-radius: 0 10px 10px 0;
+    clear: both;
+}
+
+ul#menu li.ultimo {
+    background-image: none;
+}
+
+ul#menu a:hover {
+    background-color: #de003e;
+    color: #f2f2f2;
+}
+
+ul#menu a.active {
+    background-color: #de003e;
+    color: rgb(215, 215, 215);
+    cursor: text;
+}
+
+/* Fim da estrutura do Menu */
+
+/* Fim da estrutura do HEADER */
+
+/* Estrutura do main */
+
+main {
+    width: 100%;
+}
+
+div#container {
+    margin: 10px auto;
+    width: 1200px;
+    /* 1200px */
+    height: 1300px;
+    background-color: white;
+    clear: both;
+    background: #fff url(../img/fundo-caixa.png);
+}
+
+div.lateral {
+    width: 300px;
+    /* 300px */
+    height: 100%;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+div.central {
+    width: 900px;
+    /* 900px */
+    height: 100%;
+    float: right;
+}
+
+div.esquerda {
+    width: 450px;
+    /* 449px */
+    height: 100%;
+    /* border: 1px solid green; */
+    float: left;
+}
+
+div.direita {
+    width: 450px;
+    /* 449px */
+    height: 100%;
+    /* border: 1px solid green; */
+    float: right;
+}
+
+ul#entrevistados {
+    background-color: white;
+}
+
+.lateral .entrevistas {
+    /* width: 200px; */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.entrevistas h1 {
+    background-color: #294C71;
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.entrevistas a {
+    display: block;
+    padding: 20px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.entrevistas a:hover {
+    color: #b10333;
+    margin-left: 10px;
+    background-image: url(../img/marcador.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.lateral .news {
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.news form {
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.news h1 {
+    background-color: #294C71;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+.news form .email {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.news form #email {
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.news form .submit {
+    margin: 0 auto;
+    width: 152px;
+}
+
+.news form #submit {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    margin: 0 auto;
+}
+
+div.esquerda img,
+div.direita img {
+    max-width: 300px;
+}
+
+div.esquerda .ultimaEntrevista,
+div.esquerda .mundo,
+div.direita .destaque,
+div.direita .noticiasRecentes {
+    width: 85%;
+    height: 400px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+div.esquerda .ultimaEntrevista h1,
+div.esquerda .mundo h1,
+div.direita .destaque h1,
+div.direita .noticiasRecentes h1,
+.container-central-destaque-unic h1 {
+    padding: 10px;
+    background-color: #294C71;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.campoUltima {
+    background-color: white;
+    padding: 15px;
+}
+
+div.esquerda .ultimaEntrevista h2,
+div.direita .destaque h2,
+.container-central-destaque-corpo h2 {
+    width: 230px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 1em;
+    background-color: #de003e;
+    text-transform: uppercase;
+
+}
+
+div.direita .destaque h2,
+.container-central-destaque-corpo h2 {
+    width: 137px;
+    color: white;
+}
+
+div.central-block {
+    margin: 0 auto;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.477);
+}
+
+div.central-block img {
+    width: 140px;
+    float: left;
+}
+
+div.central-block h2 {
+    font-size: 0.8em;
+    text-align: center;
+    color: rgb(20, 102, 218);
+    text-transform: uppercase;
+}
+
+div.central-block .central-block-texto {
+    padding: 10px;
+    text-align: center;
+
+}
+
+div.central-block .central-block-texto a {
+    font-size: 1.1em;
+}
+
+footer p {
+    background-color: #294C71;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+
+/* Página Brasil */
+
+.container-central-destaque h1,
+.container-central-mundo h1,
+.container-central-destaque-unic h1,
+.container-central-destaque-unic2 h1 {
+    margin: 20px 0;
+    background-color: #294C71;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.container-central-destaque-corpo {
+    width: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-central-destaque-corpo a {
+    color: #de003e;
+}
+
+.container-central-destaque-corpo a:hover {
+    text-decoration: underline;
+}
+
+.container-central-mundo-block {
+    margin: 0 auto;
+    padding: 20px;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.477);
+}
+
+div.container-central-mundo-block img {
+    width: 140px;
+    float: left;
+}
+
+div.container-central-mundo-block h2 {
+    font-size: 0.8em;
+    text-align: center;
+    color: rgb(20, 102, 218);
+    text-transform: uppercase;
+}
+
+div.container-central-mundo-block .central-block-texto {
+    padding: 10px;
+    text-align: center;
+
+}
+
+div.container-central-mundo-block .central-block-texto a {
+    font-size: 1.1em;
+}
+
+/* Nova Legislação */
+.container-central-destaque-corpo {
+    width: 840px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container-central-destaque-corpo img{
+    width: 700px;
+    padding: 30px;
+}
+
+div#container-un {
+    margin: 10px auto;
+    width: 1200px;
+    /* 1200px */
+    height: 1900px;
+    background-color: white;
+    clear: both;
+    background: #fff url(../img/fundo-caixa.png);
+}

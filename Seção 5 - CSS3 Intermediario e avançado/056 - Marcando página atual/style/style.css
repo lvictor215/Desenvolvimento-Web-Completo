@@ -1,0 +1,36 @@
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+        }
+
+        ul a{
+            width: 200px;
+            height: 40px;
+            display: block;
+            background:#f7b600 url('../img/menu.png') no-repeat left bottom;
+            text-align: center;
+            line-height: 40px;
+            color: black;
+        }
+
+        ul a:hover, .selecionado{
+            background-position: right bottom;
+            background-color:#f99200;
+            color: white;
+        }
+
+        #home #menu .home a, 
+        #contato #menu .contato a,
+        #detalhes #menu .detalhes a,
+        #sugestoes #menu .sugestoes a
+        {
+            background-position: right bottom;
+            background-color:#f99200;
+            color: white;
+        }

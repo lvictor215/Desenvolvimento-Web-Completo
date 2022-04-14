@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+#header {
+  background: #f7b600;
+}
+#header nav {
+  text-align: center;
+  padding: 20px 0;
+}
+#header nav a {
+  color: white;
+  padding: 15px 50px;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+#header nav a:hover {
+  border-radius: 20px;
+  background: white;
+  color: #f7b600;
+}
+
+.logo {
+  font-size: 2.5em;
+  text-align: center;
+  color: gray;
+  padding: 20px 0;
+}
+.logo h1 a {
+  color: gray;
+}
+.logo h1 a span {
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  width: 1050px;
+}
+
+#container {
+  margin-top: 75px;
+  width: 900px;
+}
+
+.postagens {
+  float: left;
+  width: 700px;
+}
+.postagens h1 {
+  color: #ffdd1e;
+}
+
+.recentes {
+  float: left;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  color: #202020;
+  background: gray;
+}
+
+.corpo {
+  font-size: 0.8em;
+}
+
+.post {
+  margin: 15px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.linkPost {
+  color: #9c8604;
+}
+
+.linkrecente {
+  color: #d1b412;
+  font-size: 0.7em;
+}
+
+.linklinks {
+  color: #d1b412;
+  font-weight: 500;
+}
+
+footer {
+  bottom: 0;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 30px 0;
+  margin-top: 800px;
+  clear: both;
+}
+
+/*# sourceMappingURL=estilo.css.map */
